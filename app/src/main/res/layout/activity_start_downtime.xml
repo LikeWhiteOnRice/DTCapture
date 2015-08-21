@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#3e000000">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:text="@string/start_downtime_button_text"
+        android:id="@+id/stopDowntime"
+        android:layout_weight="1.01"
+        android:onClick="stopDowntime"
+        android:background="#5c000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ffff0004" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="End Shift"
+        android:id="@+id/studyEnd"
+        android:onClick="studyEnd"
+        android:layout_marginTop="81dp"
+        android:layout_below="@+id/stopDowntime"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.e134292.downtimeCapture.pickReasonActivity"
+    android:orientation="vertical"
+    android:background="#3e000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Downtime Reason"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/dtButtonOne"
+        android:layout_marginTop="20dp"
+        android:onClick="buttonOnePress"
+        android:textStyle="bold"
+        android:background="#5c000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/dtButtonTwo"
+        android:layout_marginTop="15dp"
+        android:onClick="buttonTwoPress"
+        android:textStyle="bold"
+        android:background="#5c000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/dtButtonThree"
+        android:layout_marginTop="15dp"
+        android:onClick="buttonThreePress"
+        android:textStyle="bold"
+        android:background="#5c000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/dtButtonFour"
+        android:layout_marginTop="15dp"
+        android:onClick="buttonFourPress"
+        android:textStyle="bold"
+        android:background="#5c000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/dtButtonFive"
+        android:layout_marginTop="15dp"
+        android:onClick="buttonFivePress"
+        android:textStyle="bold"
+        android:background="#5c000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/dtButtonSix"
+        android:layout_marginTop="15dp"
+        android:onClick="buttonSixPress"
+        android:textStyle="bold"
+        android:background="#5c000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/dtButtonSeven"
+        android:layout_marginTop="15dp"
+        android:onClick="buttonSevenPress"
+        android:textStyle="bold"
+        android:background="#5c000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/dtButtonEight"
+        android:layout_marginTop="15dp"
+        android:onClick="buttonEightPress"
+        android:textStyle="bold"
+        android:background="#5c000000" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/reasonET"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:hint="Enter Other Downtime Reason"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:background="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Use Entered Reason"
+        android:id="@+id/doneButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="nextDowntime"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff" />
+
+</LinearLayout>

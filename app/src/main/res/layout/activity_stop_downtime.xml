@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.e134292.downtimeCapture.stopDowntimeActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/stop_downtime_button_text"
+        android:id="@+id/stopDowntime"
+        android:onClick="pickReason"
+        android:background="#5c000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#ff00ff22" />
+
+</RelativeLayout>
